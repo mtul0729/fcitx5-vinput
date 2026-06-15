@@ -30,7 +30,7 @@ sudo apt install fcitx5-vinput
 
 ### Nix (flake)
 
-Supports `x86_64-linux` and `aarch64-linux`. Binary cache is available via [Cachix](https://fcitx5-vinput.cachix.org) — pre-built binaries are used automatically when building the flake.
+Supports `x86_64-linux` and `aarch64-linux`. Binary cache is available via [Cachix](https://mtul.cachix.org) — pre-built binaries are used automatically when building the flake.
 
 #### Home Manager example
 
@@ -52,8 +52,8 @@ Add `fcitx5-vinput` as a flake input:
 
   # Trust the fcitx5-vinput binary cache so nix uses pre-built binaries
   nixConfig = {
-    extra-substituters = [ "https://fcitx5-vinput.cachix.org" ];
-    extra-trusted-public-keys = [ "fcitx5-vinput.cachix.org-1:XpX3AA6+dDIX4qJhb1QM7sbTwX6/qSlGvW8Z5NK6XdU=" ];
+    extra-substituters = [ "https://mtul.cachix.org" ];
+    extra-trusted-public-keys = [ "mtul.cachix.org-1:WEuapLtfyNPLkcCbwQh3jLxVwEwQNcDXhru9lbuhDlo=" ];
   };
 
   outputs =

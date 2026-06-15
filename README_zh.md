@@ -64,12 +64,12 @@ sudo apt-get install -f
 inputs.fcitx5-vinput.url = "github:xifan2333/fcitx5-vinput";
 ```
 
-通过 [Cachix](https://fcitx5-vinput.cachix.org) 提供二进制缓存：
+通过 [Cachix](https://mtul.cachix.org) 提供二进制缓存：
 
 ```nix
 nixConfig = {
-  extra-substituters = [ "https://fcitx5-vinput.cachix.org" ];
-  extra-trusted-public-keys = [ "fcitx5-vinput.cachix.org-1:XpX3AA6+dDIX4qJhb1QM7sbTwX6/qSlGvW8Z5NK6XdU=" ];
+  extra-substituters = [ "https://mtul.cachix.org" ];
+  extra-trusted-public-keys = [ "mtul.cachix.org-1:WEuapLtfyNPLkcCbwQh3jLxVwEwQNcDXhru9lbuhDlo=" ];
 };
 ```
 

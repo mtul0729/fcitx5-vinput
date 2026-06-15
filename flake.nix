@@ -2,8 +2,8 @@
   description = "Local offline voice input plugin for Fcitx5";
 
   nixConfig = {
-    extra-substituters = [ "https://fcitx5-vinput.cachix.org" ];
-    extra-trusted-public-keys = [ "fcitx5-vinput.cachix.org-1:XpX3AA6+dDIX4qJhb1QM7sbTwX6/qSlGvW8Z5NK6XdU=" ];
+    extra-substituters = [ "https://mtul.cachix.org" ];
+    extra-trusted-public-keys = [ "mtul.cachix.org-1:WEuapLtfyNPLkcCbwQh3jLxVwEwQNcDXhru9lbuhDlo=" ];
   };
 
   inputs = {

@@ -28,7 +28,7 @@ jobs:
 
       - uses: cachix/cachix-action@v17
         with:
-          name: fcitx5-vinput
+          name: mtul
           authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
 
       - name: Build and push to Cachix
